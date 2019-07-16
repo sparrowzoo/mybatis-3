@@ -193,12 +193,12 @@
     </dependency>
 
     <!-- Test dependencies -->
-    <dependency>
-      <groupId>org.junit.vintage</groupId>
-      <artifactId>junit-vintage-engine</artifactId>
-      <version>${junit-engine.version}</version>
-      <scope>test</scope>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.junit.vintage</groupId>-->
+      <!--<artifactId>junit-vintage-engine</artifactId>-->
+      <!--<version>${junit-engine.version}</version>-->
+      <!--<scope>test</scope>-->
+    <!--</dependency>-->
     <dependency>
       <groupId>org.hsqldb</groupId>
       <artifactId>hsqldb</artifactId>
@@ -378,5 +378,4 @@
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </repository>
   </repositories>
-
 </project>
